@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mariapaulacarrero/Downloads/marsyas-master
+-- Could NOT find Sndfile (missing: SNDFILE_LIBRARIES SNDFILE_INCLUDE_DIRS) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug

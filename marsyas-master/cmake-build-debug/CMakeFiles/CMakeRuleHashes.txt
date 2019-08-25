@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+470c3ff0fcc4c6f71e366aaba8981149 doc/CMakeFiles/docs
+470c3ff0fcc4c6f71e366aaba8981149 doc/CMakeFiles/doxy
+3fd8830764143fadb2b75094e8935c52 doc/out-www/manual/marsyas-cookbook.pdf
+b58b1e28dd7b610fb3975ec38efcd9f2 doc/out-www/manual/marsyas-cookbook/index.html
+1a08adc23f16572bdb06751cdef13b43 doc/out-www/manual/marsyas-devel.pdf
+5508b9c895a7c4a0be79d795675ece6f doc/out-www/manual/marsyas-devel/index.html
+3909687df278a2d34baeceb087bd327d doc/out-www/manual/marsyas-user.pdf
+25c2e971817c9b792070a9833bd0b3e5 doc/out-www/manual/marsyas-user/index.html
+b70216cf803449194c944a10ce300776 doc/out-www/sourceDoc/index.html
