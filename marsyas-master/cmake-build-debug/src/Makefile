@@ -92,16 +92,16 @@ install/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CPackSourceConfig.cmake
-.PHONY : package_source
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target package_source
-package_source/fast: package_source
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : package_source/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -114,16 +114,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target package_source
+package_source/fast: package_source
 
-.PHONY : edit_cache/fast
+.PHONY : package_source/fast
 
 # Special rule for the target package
 package: preinstall
@@ -179,6 +179,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/marsyas_centroid.dir/rule:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/marsyas_centroid.dir/rule
+.PHONY : src/CMakeFiles/marsyas_centroid.dir/rule
+
+# Convenience name for target.
+marsyas_centroid: src/CMakeFiles/marsyas_centroid.dir/rule
+
+.PHONY : marsyas_centroid
+
+# fast build rule for target.
+marsyas_centroid/fast:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/CMakeFiles/marsyas_centroid.dir/build.make src/CMakeFiles/marsyas_centroid.dir/build
+.PHONY : marsyas_centroid/fast
+
+# Convenience name for target.
 src/CMakeFiles/marsyas_play_file.dir/rule:
 	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/marsyas_play_file.dir/rule
 .PHONY : src/CMakeFiles/marsyas_play_file.dir/rule
@@ -192,6 +207,33 @@ marsyas_play_file: src/CMakeFiles/marsyas_play_file.dir/rule
 marsyas_play_file/fast:
 	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/CMakeFiles/marsyas_play_file.dir/build.make src/CMakeFiles/marsyas_play_file.dir/build
 .PHONY : marsyas_play_file/fast
+
+marsyas/system/MarsyasFeatureExtractor.o: marsyas/system/MarsyasFeatureExtractor.cpp.o
+
+.PHONY : marsyas/system/MarsyasFeatureExtractor.o
+
+# target to build an object file
+marsyas/system/MarsyasFeatureExtractor.cpp.o:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/CMakeFiles/marsyas_centroid.dir/build.make src/CMakeFiles/marsyas_centroid.dir/marsyas/system/MarsyasFeatureExtractor.cpp.o
+.PHONY : marsyas/system/MarsyasFeatureExtractor.cpp.o
+
+marsyas/system/MarsyasFeatureExtractor.i: marsyas/system/MarsyasFeatureExtractor.cpp.i
+
+.PHONY : marsyas/system/MarsyasFeatureExtractor.i
+
+# target to preprocess a source file
+marsyas/system/MarsyasFeatureExtractor.cpp.i:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/CMakeFiles/marsyas_centroid.dir/build.make src/CMakeFiles/marsyas_centroid.dir/marsyas/system/MarsyasFeatureExtractor.cpp.i
+.PHONY : marsyas/system/MarsyasFeatureExtractor.cpp.i
+
+marsyas/system/MarsyasFeatureExtractor.s: marsyas/system/MarsyasFeatureExtractor.cpp.s
+
+.PHONY : marsyas/system/MarsyasFeatureExtractor.s
+
+# target to generate assembly for a file
+marsyas/system/MarsyasFeatureExtractor.cpp.s:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/CMakeFiles/marsyas_centroid.dir/build.make src/CMakeFiles/marsyas_centroid.dir/marsyas/system/MarsyasFeatureExtractor.cpp.s
+.PHONY : marsyas/system/MarsyasFeatureExtractor.cpp.s
 
 marsyas/system/marsyas_play_file.o: marsyas/system/marsyas_play_file.cpp.o
 
@@ -229,12 +271,16 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... package_source"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... package_source"
 	@echo "... package"
+	@echo "... marsyas_centroid"
 	@echo "... list_install_components"
 	@echo "... marsyas_play_file"
+	@echo "... marsyas/system/MarsyasFeatureExtractor.o"
+	@echo "... marsyas/system/MarsyasFeatureExtractor.i"
+	@echo "... marsyas/system/MarsyasFeatureExtractor.s"
 	@echo "... marsyas/system/marsyas_play_file.o"
 	@echo "... marsyas/system/marsyas_play_file.i"
 	@echo "... marsyas/system/marsyas_play_file.s"

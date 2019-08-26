@@ -12,7 +12,7 @@ void sfplay(string sfName, float gain)
 
     MarSystem* playbacknet = mng.create("Series", "playbacknet");
 
-    playbacknet->addMarSystem(mng.create("SoundFileSource", "src"));
+    playbacknet->addMarSystem(mng.create("SoundFileSource", "src")); // mng.create(TYPE, NAME)
     playbacknet->addMarSystem(mng.create("Gain", "gt"));
     playbacknet->addMarSystem(mng.create("AudioSink", "dest"));
 
@@ -26,7 +26,7 @@ void sfplay(string sfName, float gain)
     }
     delete playbacknet;
 }
-
+/*
 int main()
 {
     string fileName;
@@ -47,4 +47,4 @@ int main()
 
     sfplay(fileName,gain);
     exit(0);
-}
+}*/

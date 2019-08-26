@@ -97,6 +97,64 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="marsyas_centroid">
+				<Option output="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin/marsyas_centroid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D__MACOSX_CORE__"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtAudio"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtMidi"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/libsvm"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 marsyas_centroid"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="marsyas_centroid/fast">
+				<Option output="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin/marsyas_centroid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D__MACOSX_CORE__"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtAudio"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtMidi"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs"/>
+					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/libsvm"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 marsyas_centroid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="marsyas_play_file">
 				<Option output="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin/marsyas_play_file" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/bin"/>
@@ -4884,6 +4942,12 @@
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/statistics.h">
 			<Option target="marsyas"/>
 		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp">
+			<Option target="marsyas"/>
+		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.h">
+			<Option target="marsyas"/>
+		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarControl.cpp">
 			<Option target="marsyas"/>
 		</Unit>
@@ -4912,6 +4976,10 @@
 			<Option target="marsyas"/>
 		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h">
+			<Option target="marsyas"/>
+		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarsyasFeatureExtractor.cpp">
+			<Option target="marsyas_centroid"/>
 			<Option target="marsyas"/>
 		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/marsyas_play_file.cpp">

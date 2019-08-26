@@ -377,6 +377,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/marsyas.dir/debug/file_io.cpp.o"
   "CMakeFiles/marsyas.dir/system/marsyas_test.cpp.o"
   "CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o"
+  "CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o"
+  "CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o"
   "../../lib/libmarsyas.pdb"
   "../../lib/libmarsyas.dylib"
 )

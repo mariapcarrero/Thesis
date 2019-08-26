@@ -172,6 +172,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/marsyas_centroid.dir/DependInfo.cmake"
   "src/CMakeFiles/marsyas_play_file.dir/DependInfo.cmake"
   "src/otherlibs/oscpack/CMakeFiles/oscpack.dir/DependInfo.cmake"
   "src/marsyas/CMakeFiles/marsyas.dir/DependInfo.cmake"

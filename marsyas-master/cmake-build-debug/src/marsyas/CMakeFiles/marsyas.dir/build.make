@@ -9141,6 +9141,54 @@ src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o.provides: src/
 src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o.provides.build: src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o
 
 
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o: src/marsyas/CMakeFiles/marsyas.dir/flags.make
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o: ../src/marsyas/system/MarsyasFeatureExtractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building CXX object src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o -c /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarsyasFeatureExtractor.cpp
+
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.i"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarsyasFeatureExtractor.cpp > CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.i
+
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.s"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarsyasFeatureExtractor.cpp -o CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.s
+
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.requires:
+
+.PHONY : src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.requires
+
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.provides: src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.requires
+	$(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.provides.build
+.PHONY : src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.provides
+
+src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.provides.build: src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o
+
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o: src/marsyas/CMakeFiles/marsyas.dir/flags.make
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o: ../src/marsyas/system/CentroidExtractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building CXX object src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o -c /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.i"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp > CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.i
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.s"
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp -o CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.s
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.requires:
+
+.PHONY : src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.requires
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.provides: src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.requires
+	$(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.provides.build
+.PHONY : src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.provides
+
+src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.provides.build: src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o
+
+
 # Object files for target marsyas
 marsyas_OBJECTS = \
 "CMakeFiles/marsyas.dir/system/MarControl.cpp.o" \
@@ -9520,7 +9568,9 @@ marsyas_OBJECTS = \
 "CMakeFiles/marsyas.dir/debug/debugger.cpp.o" \
 "CMakeFiles/marsyas.dir/debug/file_io.cpp.o" \
 "CMakeFiles/marsyas.dir/system/marsyas_test.cpp.o" \
-"CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o"
+"CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o" \
+"CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o" \
+"CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o"
 
 # External object files for target marsyas
 marsyas_EXTERNAL_OBJECTS =
@@ -9903,10 +9953,12 @@ lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/debug/debugger.cpp.o
 lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/debug/file_io.cpp.o
 lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_test.cpp.o
 lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o
+lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o
+lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o
 lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/build.make
 lib/libmarsyas.dylib: lib/liboscpack.a
 lib/libmarsyas.dylib: src/marsyas/CMakeFiles/marsyas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Linking CXX shared library ../../lib/libmarsyas.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Linking CXX shared library ../../lib/libmarsyas.dylib"
 	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/marsyas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -10292,6 +10344,8 @@ src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/
 src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/debug/file_io.cpp.o.requires
 src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_test.cpp.o.requires
 src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o.requires
+src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o.requires
+src/marsyas/CMakeFiles/marsyas.dir/requires: src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o.requires
 
 .PHONY : src/marsyas/CMakeFiles/marsyas.dir/requires
 

@@ -179,6 +179,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named marsyas_centroid
+
+# Build rule for target.
+marsyas_centroid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 marsyas_centroid
+.PHONY : marsyas_centroid
+
+# fast build rule for target.
+marsyas_centroid/fast:
+	$(MAKE) -f src/CMakeFiles/marsyas_centroid.dir/build.make src/CMakeFiles/marsyas_centroid.dir/build
+.PHONY : marsyas_centroid/fast
+
+#=============================================================================
 # Target rules for targets named marsyas_play_file
 
 # Build rule for target.
@@ -777,6 +790,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... list_install_components"
 	@echo "... package"
+	@echo "... marsyas_centroid"
 	@echo "... marsyas_play_file"
 	@echo "... oscpack"
 	@echo "... marsyas"

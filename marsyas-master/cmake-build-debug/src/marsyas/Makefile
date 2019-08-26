@@ -10183,6 +10183,33 @@ statistics.cpp.s:
 	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/statistics.cpp.s
 .PHONY : statistics.cpp.s
 
+system/CentroidExtractor.o: system/CentroidExtractor.cpp.o
+
+.PHONY : system/CentroidExtractor.o
+
+# target to build an object file
+system/CentroidExtractor.cpp.o:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o
+.PHONY : system/CentroidExtractor.cpp.o
+
+system/CentroidExtractor.i: system/CentroidExtractor.cpp.i
+
+.PHONY : system/CentroidExtractor.i
+
+# target to preprocess a source file
+system/CentroidExtractor.cpp.i:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.i
+.PHONY : system/CentroidExtractor.cpp.i
+
+system/CentroidExtractor.s: system/CentroidExtractor.cpp.s
+
+.PHONY : system/CentroidExtractor.s
+
+# target to generate assembly for a file
+system/CentroidExtractor.cpp.s:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.s
+.PHONY : system/CentroidExtractor.cpp.s
+
 system/MarControl.o: system/MarControl.cpp.o
 
 .PHONY : system/MarControl.o
@@ -10317,6 +10344,33 @@ system/MarSystemManager.s: system/MarSystemManager.cpp.s
 system/MarSystemManager.cpp.s:
 	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/MarSystemManager.cpp.s
 .PHONY : system/MarSystemManager.cpp.s
+
+system/MarsyasFeatureExtractor.o: system/MarsyasFeatureExtractor.cpp.o
+
+.PHONY : system/MarsyasFeatureExtractor.o
+
+# target to build an object file
+system/MarsyasFeatureExtractor.cpp.o:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o
+.PHONY : system/MarsyasFeatureExtractor.cpp.o
+
+system/MarsyasFeatureExtractor.i: system/MarsyasFeatureExtractor.cpp.i
+
+.PHONY : system/MarsyasFeatureExtractor.i
+
+# target to preprocess a source file
+system/MarsyasFeatureExtractor.cpp.i:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.i
+.PHONY : system/MarsyasFeatureExtractor.cpp.i
+
+system/MarsyasFeatureExtractor.s: system/MarsyasFeatureExtractor.cpp.s
+
+.PHONY : system/MarsyasFeatureExtractor.s
+
+# target to generate assembly for a file
+system/MarsyasFeatureExtractor.cpp.s:
+	cd /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug && $(MAKE) -f src/marsyas/CMakeFiles/marsyas.dir/build.make src/marsyas/CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.s
+.PHONY : system/MarsyasFeatureExtractor.cpp.s
 
 system/marsyas_play_file.o: system/marsyas_play_file.cpp.o
 
@@ -11524,6 +11578,9 @@ help:
 	@echo "... statistics.o"
 	@echo "... statistics.i"
 	@echo "... statistics.s"
+	@echo "... system/CentroidExtractor.o"
+	@echo "... system/CentroidExtractor.i"
+	@echo "... system/CentroidExtractor.s"
 	@echo "... system/MarControl.o"
 	@echo "... system/MarControl.i"
 	@echo "... system/MarControl.s"
@@ -11539,6 +11596,9 @@ help:
 	@echo "... system/MarSystemManager.o"
 	@echo "... system/MarSystemManager.i"
 	@echo "... system/MarSystemManager.s"
+	@echo "... system/MarsyasFeatureExtractor.o"
+	@echo "... system/MarsyasFeatureExtractor.i"
+	@echo "... system/MarsyasFeatureExtractor.s"
 	@echo "... system/marsyas_play_file.o"
 	@echo "... system/marsyas_play_file.i"
 	@echo "... system/marsyas_play_file.s"
