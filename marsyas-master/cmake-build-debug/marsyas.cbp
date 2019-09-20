@@ -280,8 +280,8 @@
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtMidi"/>
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs"/>
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/libsvm"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -309,8 +309,8 @@
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/RtMidi"/>
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs"/>
 					<Add directory="/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/libsvm"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -3694,6 +3694,12 @@
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LSP.h">
 			<Option target="marsyas"/>
 		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LibsndfileSource.cpp">
+			<Option target="marsyas"/>
+		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LibsndfileSource.h">
+			<Option target="marsyas"/>
+		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/Limiter.cpp">
 			<Option target="marsyas"/>
 		</Unit>
@@ -4940,6 +4946,12 @@
 			<Option target="marsyas"/>
 		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/statistics.h">
+			<Option target="marsyas"/>
+		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.cpp">
+			<Option target="marsyas"/>
+		</Unit>
+		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h">
 			<Option target="marsyas"/>
 		</Unit>
 		<Unit filename="/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp">

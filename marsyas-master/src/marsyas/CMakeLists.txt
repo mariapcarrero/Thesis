@@ -233,7 +233,7 @@ set(MARSYAS_ALL_SOURCES
     ${Marsyas_SOURCES}
     ${MARSYAS_REALTIME_SOURCES}
     ${MARSYAS_DEBUG_SOURCES}
-        system/marsyas_test.cpp system/marsyas_play_file.cpp system/MarsyasFeatureExtractor.cpp system/CentroidExtractor.cpp system/CentroidExtractor.h)
+        system/marsyas_test.cpp system/marsyas_play_file.cpp system/MarsyasFeatureExtractor.cpp system/CentroidExtractor.cpp system/CentroidExtractor.h system/AudioOracle.cpp system/AudioOracle.h)
 
 if(MARSYAS_STATIC)
   add_library(marsyas STATIC ${MARSYAS_ALL_SOURCES})

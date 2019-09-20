@@ -37,6 +37,7 @@ void CentroidExtractor::toy_with_centroid(string sfName1)
     cnet->addMarSystem(mng.create("Spectrum/spk"));
     cnet->addMarSystem(mng.create("PowerSpectrum/pspk"));
     cnet->addMarSystem(mng.create("Centroid/cntrd"));
+    //cnet->addMarSystem(mng.create("MFCC/mfcc"));
     cnet->linkControl("mrs_string/filename", "SoundFileSource/src/mrs_string/filename");
 
     cout << "Connected Marsystems" << endl;
@@ -49,7 +50,7 @@ void CentroidExtractor::toy_with_centroid(string sfName1)
 
     ofstream ofs;
     ofs.open("centroid.mpl");
-    ofs << *cnet << endl;
+    ofs << *cnet << endl; //copies everything in the cnet to the file centroid.mpl
     ofs.close();
 
     net->updControl("Accumulator/accum/mrs_natural/maxTimes", 2000); //this is why it does it 1999 times!
@@ -66,7 +67,7 @@ void CentroidExtractor::toy_with_centroid(string sfName1)
         const mrs_realvec& src_data =
                 net->getctrl("mrs_realvec/processedData")->to<mrs_realvec>();
         cout << src_data << endl;
+        cout << "TICK DONE "<< endl;
     }
 
 }
-

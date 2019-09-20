@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="marsyas" targetName="marsyas-latency-test" />
       <config projectName="marsyas" targetName="pitchdtw_pair" />
@@ -42,8 +42,9 @@
       <config projectName="marsyas" targetName="marsyas-debug" />
       <config projectName="marsyas" targetName="sfinfo" />
       <config projectName="marsyas" targetName="ibt" />
-      <config projectName="marsyas" targetName="doxy" />
       <config projectName="marsyas" targetName="marsyas-run" />
+      <config projectName="marsyas" targetName="doxy" />
+      <config projectName="marsyas" targetName="marsyas_centroid" />
       <config projectName="marsyas" targetName="marsyas" />
       <config projectName="marsyas" targetName="nextract" />
       <config projectName="marsyas" targetName="aim" />
@@ -56,205 +57,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab488fe6-aeae-4580-a8b7-cd6796326e07" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="marsyas_test.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="marsyas_play_file.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_play_file.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsyasFeatureExtractor.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarsyasFeatureExtractor.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CentroidExtractor.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CentroidExtractor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="e#1136#1158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarSystemManager.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystemManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="1471" column="24" selection-start-line="1471" selection-start-column="16" selection-end-line="1471" selection-end-column="24" />
-              <folding>
-                <element signature="e#788#817#0" expanded="true" />
-                <element signature="e#11688#11736#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundFileSource.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/marsystems/SoundFileSource.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="75" column="38" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="38" />
-              <folding>
-                <element signature="e#838#864#0" expanded="true" />
-                <element signature="e#895#921#0" expanded="true" />
-                <element signature="e#955#983#0" expanded="true" />
-                <element signature="e#993#1021#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarSystem.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystem.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-157">
-              <caret line="1613" column="18" selection-start-line="1613" selection-start-column="9" selection-end-line="1613" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>slicedelta</find>
-      <find>link</find>
-      <find>link_libraries</find>
-      <find>updt</find>
-      <find>mrs_bool</find>
-      <find>addMarSystem</find>
-      <find>create</find>
-      <find>::create</find>
-      <find>mrs_string</find>
-      <find>::updctrl</find>
-    </findStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/marsyas/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp" />
-        <option value="$PROJECT_DIR$/src/marsyas/system/marsyas_play_file.cpp" />
-        <option value="$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.h" />
-        <option value="$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.cpp" />
-        <option value="$PROJECT_DIR$/src/marsyas/system/MarsyasFeatureExtractor.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="726" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="marsyas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marsyas-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marsyas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marsyas-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marsyas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marsyas-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marsyas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marsyas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marsyas-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="marsyas" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Qy3KwABNLXG2qx1R9iPY550Ct2" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -274,102 +88,290 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.marsyas_centroid">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="WHaSp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="WHaSp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="WHaSp" />
-    <configuration name="aim" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="aim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="aim" />
-    <configuration name="audioCompare" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="audioCompare" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="audioCompare" />
-    <configuration name="bextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="bextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="bextract" />
-    <configuration name="docs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="docs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file" />
-    <configuration name="doxy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="doxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file" />
-    <configuration name="helloWorld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="helloWorld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="helloWorld" />
-    <configuration name="ibt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="ibt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="ibt" />
-    <configuration name="kea" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="kea" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="kea" />
-    <configuration name="marsyas-debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-debug" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-debug" />
-    <configuration name="marsyas-info" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-info" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-info" />
-    <configuration name="marsyas-latency-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-latency-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-latency-test" />
-    <configuration name="marsyas-run" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-run" />
-    <configuration name="marsyas-script-cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-script-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-script-cpp" />
-    <configuration name="marsyas" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas" CONFIG_NAME="Debug" />
-    <configuration name="marsyas_centroid" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/src/marsyas/system" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas_centroid" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_centroid" />
-    <configuration name="marsyas_play_file" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/src/marsyas/system" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas_play_file" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file" />
-    <configuration name="mirex_extract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mirex_extract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mirex_extract" />
-    <configuration name="mirex_train_and_predict" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mirex_train_and_predict" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mirex_train_and_predict" />
-    <configuration name="mkcollection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mkcollection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mkcollection" />
-    <configuration name="mudbox" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mudbox" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mudbox" />
-    <configuration name="nextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="nextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="nextract" />
-    <configuration name="omRms" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="omRms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="omRms" />
-    <configuration name="onsets" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="onsets" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="onsets" />
-    <configuration name="orcarecord" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="orcarecord" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="orcarecord" />
-    <configuration name="oscpack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="oscpack" CONFIG_NAME="Debug" />
-    <configuration name="peakClustering" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClustering" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClustering" />
-    <configuration name="peakClustering2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClustering2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClustering2" />
-    <configuration name="peakClusteringEval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClusteringEval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClusteringEval" />
-    <configuration name="peakSynth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakSynth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakSynth" />
-    <configuration name="phasevocoder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="phasevocoder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="phasevocoder" />
-    <configuration name="pitchdtw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchdtw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchdtw" />
-    <configuration name="pitchdtw_pair" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchdtw_pair" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchdtw_pair" />
-    <configuration name="pitchextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchextract" />
-    <configuration name="record" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="record" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="record" />
-    <configuration name="rhythmMap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="rhythmMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="rhythmMap" />
-    <configuration name="sfinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfinfo" />
-    <configuration name="sfplay" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfplay" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfplay" />
-    <configuration name="sfplugin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfplugin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfplugin" />
-    <configuration name="sound2png" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sound2png" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sound2png" />
-    <configuration name="sound2sound" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sound2sound" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sound2sound" />
-    <configuration name="speakerSeg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="speakerSeg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="speakerSeg" />
-    <configuration name="speakerSeg2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="speakerSeg2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="speakerSeg2" />
-    <configuration name="tempo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="tempo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="tempo" />
-    <configuration name="virtualsensor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="virtualsensor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="virtualsensor" />
-    <configuration name="wreckBeach" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="wreckBeach" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="wreckBeach" />
+  <component name="RunManager" selected="CMake Application.marsyas_play_file">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WHaSp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="WHaSp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="WHaSp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aim" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="aim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="aim">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="audioCompare" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="audioCompare" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="audioCompare">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="bextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="bextract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="docs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="doxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloWorld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="helloWorld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="helloWorld">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ibt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="ibt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="ibt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kea" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="kea" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="kea">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas-debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-debug" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas-info" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-info" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-info">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas-latency-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-latency-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-latency-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas-run" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-run">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas-script-cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas-script-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas-script-cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas_centroid" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/src/marsyas/system" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas_centroid" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_centroid">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marsyas_play_file" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/src/marsyas/system" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="marsyas_play_file" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="marsyas_play_file">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mirex_extract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mirex_extract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mirex_extract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mirex_train_and_predict" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mirex_train_and_predict" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mirex_train_and_predict">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mkcollection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mkcollection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mkcollection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mudbox" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="mudbox" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="mudbox">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="nextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="nextract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="omRms" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="omRms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="omRms">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="onsets" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="onsets" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="onsets">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orcarecord" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="orcarecord" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="orcarecord">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oscpack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="oscpack" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peakClustering" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClustering" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClustering">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peakClustering2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClustering2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClustering2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peakClusteringEval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakClusteringEval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakClusteringEval">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peakSynth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="peakSynth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="peakSynth">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phasevocoder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="phasevocoder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="phasevocoder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pitchdtw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchdtw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchdtw">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pitchdtw_pair" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchdtw_pair" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchdtw_pair">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pitchextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="pitchextract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="pitchextract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="record" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="record" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="record">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rhythmMap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="rhythmMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="rhythmMap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfinfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfplay" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfplay" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfplay">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfplugin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sfplugin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sfplugin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sound2png" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sound2png" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sound2png">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sound2sound" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="sound2sound" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="sound2sound">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="speakerSeg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="speakerSeg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="speakerSeg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="speakerSeg2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="speakerSeg2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="speakerSeg2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tempo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="tempo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="tempo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="virtualsensor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="virtualsensor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="virtualsensor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wreckBeach" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="marsyas" TARGET_NAME="wreckBeach" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="marsyas" RUN_TARGET_NAME="wreckBeach">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.docs" />
-      <item itemvalue="Application.doxy" />
-      <item itemvalue="Application.marsyas_centroid" />
-      <item itemvalue="Application.marsyas_play_file" />
-      <item itemvalue="Application.aim" />
-      <item itemvalue="Application.audioCompare" />
-      <item itemvalue="Application.bextract" />
-      <item itemvalue="Application.marsyas-debug" />
-      <item itemvalue="Application.helloWorld" />
-      <item itemvalue="Application.ibt" />
-      <item itemvalue="Application.marsyas-info" />
-      <item itemvalue="Application.kea" />
-      <item itemvalue="Application.marsyas-latency-test" />
-      <item itemvalue="Application.mirex_extract" />
-      <item itemvalue="Application.mirex_train_and_predict" />
-      <item itemvalue="Application.mkcollection" />
-      <item itemvalue="Application.mudbox" />
-      <item itemvalue="Application.nextract" />
-      <item itemvalue="Application.onsets" />
-      <item itemvalue="Application.omRms" />
-      <item itemvalue="Application.orcarecord" />
-      <item itemvalue="Application.peakClustering" />
-      <item itemvalue="Application.peakClustering2" />
-      <item itemvalue="Application.peakClusteringEval" />
-      <item itemvalue="Application.peakSynth" />
-      <item itemvalue="Application.phasevocoder" />
-      <item itemvalue="Application.pitchdtw" />
-      <item itemvalue="Application.pitchdtw_pair" />
-      <item itemvalue="Application.pitchextract" />
-      <item itemvalue="Application.record" />
-      <item itemvalue="Application.rhythmMap" />
-      <item itemvalue="Application.marsyas-run" />
-      <item itemvalue="Application.marsyas-script-cpp" />
-      <item itemvalue="Application.sfinfo" />
-      <item itemvalue="Application.sfplay" />
-      <item itemvalue="Application.sfplugin" />
-      <item itemvalue="Application.sound2png" />
-      <item itemvalue="Application.sound2sound" />
-      <item itemvalue="Application.speakerSeg" />
-      <item itemvalue="Application.speakerSeg2" />
-      <item itemvalue="Application.tempo" />
-      <item itemvalue="Application.virtualsensor" />
-      <item itemvalue="Application.WHaSp" />
-      <item itemvalue="Application.wreckBeach" />
-      <item itemvalue="Application.marsyas" />
-      <item itemvalue="Application.oscpack" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.WHaSp" />
+      <item itemvalue="CMake Application.aim" />
+      <item itemvalue="CMake Application.audioCompare" />
+      <item itemvalue="CMake Application.bextract" />
+      <item itemvalue="CMake Application.docs" />
+      <item itemvalue="CMake Application.doxy" />
+      <item itemvalue="CMake Application.helloWorld" />
+      <item itemvalue="CMake Application.ibt" />
+      <item itemvalue="CMake Application.kea" />
+      <item itemvalue="CMake Application.marsyas" />
+      <item itemvalue="CMake Application.marsyas-debug" />
+      <item itemvalue="CMake Application.marsyas-info" />
+      <item itemvalue="CMake Application.marsyas-latency-test" />
+      <item itemvalue="CMake Application.marsyas-run" />
+      <item itemvalue="CMake Application.marsyas-script-cpp" />
+      <item itemvalue="CMake Application.marsyas_centroid" />
+      <item itemvalue="CMake Application.marsyas_play_file" />
+      <item itemvalue="CMake Application.mirex_extract" />
+      <item itemvalue="CMake Application.mirex_train_and_predict" />
+      <item itemvalue="CMake Application.mkcollection" />
+      <item itemvalue="CMake Application.mudbox" />
+      <item itemvalue="CMake Application.nextract" />
+      <item itemvalue="CMake Application.omRms" />
+      <item itemvalue="CMake Application.onsets" />
+      <item itemvalue="CMake Application.orcarecord" />
+      <item itemvalue="CMake Application.oscpack" />
+      <item itemvalue="CMake Application.peakClustering" />
+      <item itemvalue="CMake Application.peakClustering2" />
+      <item itemvalue="CMake Application.peakClusteringEval" />
+      <item itemvalue="CMake Application.peakSynth" />
+      <item itemvalue="CMake Application.phasevocoder" />
+      <item itemvalue="CMake Application.pitchdtw" />
+      <item itemvalue="CMake Application.pitchdtw_pair" />
+      <item itemvalue="CMake Application.pitchextract" />
+      <item itemvalue="CMake Application.record" />
+      <item itemvalue="CMake Application.rhythmMap" />
+      <item itemvalue="CMake Application.sfinfo" />
+      <item itemvalue="CMake Application.sfplay" />
+      <item itemvalue="CMake Application.sfplugin" />
+      <item itemvalue="CMake Application.sound2png" />
+      <item itemvalue="CMake Application.sound2sound" />
+      <item itemvalue="CMake Application.speakerSeg" />
+      <item itemvalue="CMake Application.speakerSeg2" />
+      <item itemvalue="CMake Application.tempo" />
+      <item itemvalue="CMake Application.virtualsensor" />
+      <item itemvalue="CMake Application.wreckBeach" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -387,335 +389,38 @@
       <workItem from="1566250001649" duration="1168000" />
       <workItem from="1566253975761" duration="199000" />
       <workItem from="1566254518196" duration="1331000" />
-      <workItem from="1566667749325" duration="9721000" />
+      <workItem from="1566667749325" duration="10408000" />
+      <workItem from="1568019118396" duration="5460000" />
+      <workItem from="1568064934222" duration="223000" />
+      <workItem from="1568103960048" duration="104000" />
+      <workItem from="1568112377341" duration="356000" />
+      <workItem from="1568118060814" duration="835000" />
+      <workItem from="1568123831022" duration="2522000" />
+      <workItem from="1568207286569" duration="47000" />
+      <workItem from="1568284498739" duration="6641000" />
+      <workItem from="1568366908818" duration="6997000" />
+      <workItem from="1568622273308" duration="4011000" />
+      <workItem from="1568715510950" duration="1133000" />
+      <workItem from="1568728961468" duration="12441000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16464000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3048276" />
-      <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827586" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystemManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7755">
-          <caret line="517" column="60" selection-start-line="517" selection-start-column="50" selection-end-line="517" selection-end-column="60" />
-          <folding>
-            <element signature="e#788#817#0" expanded="true" />
-            <element signature="e#11688#11736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystemManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="438" column="47" lean-forward="true" selection-start-line="438" selection-start-column="47" selection-end-line="438" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5265">
-          <caret line="351" selection-start-line="351" selection-end-line="351" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6645">
-          <caret line="443" column="51" selection-start-line="443" selection-start-column="51" selection-end-line="443" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/common_header.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/MrsLog.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/src/marsyas/export.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#130#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/marsystems/SVMClassifier.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherlibs/libsvm/svm.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="443" selection-start-line="443" selection-end-line="443" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/doc/out-www/manual/examples/helloworld.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/marsystems/WavFileSource.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="376" column="27" selection-start-line="376" selection-start-column="15" selection-end-line="376" selection-end-column="27" />
-          <folding>
-            <element signature="e#845#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/marsystems/SoundFileSource.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-          <folding>
-            <element signature="e#857#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystemManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1471" column="24" selection-start-line="1471" selection-start-column="16" selection-end-line="1471" selection-end-column="24" />
-          <folding>
-            <element signature="e#788#817#0" expanded="true" />
-            <element signature="e#11688#11736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystemManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/marsystems/SoundFileSource.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="38" />
-          <folding>
-            <element signature="e#838#864#0" expanded="true" />
-            <element signature="e#895#921#0" expanded="true" />
-            <element signature="e#955#983#0" expanded="true" />
-            <element signature="e#993#1021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarSystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="1613" column="18" selection-start-line="1613" selection-start-column="9" selection-end-line="1613" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/marsyas_play_file.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#1136#1158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/CentroidExtractor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/marsyas/system/MarsyasFeatureExtractor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>MarSystemManager mng;
+    MarSystem* pnet = mng.create(&quot;Series&quot;, &quot;pnet&quot;);
+    // standard network
+    pnet-&gt;addMarSystem(mng.create(&quot;SoundFileSource&quot;, &quot;src&quot;));
+    pnet-&gt;updctrl(&quot;SoundFileSource/src/mrs_string/filename&quot;, sfName);
+    pnet-&gt;addMarSystem(mng.create(&quot;Spectrum&quot;,&quot;spk&quot;));
+    pnet-&gt;addMarSystem(mng.create(&quot;Gain&quot;, &quot;g2&quot;));</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
 </project>

@@ -363,6 +363,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/marsyas.dir/__/otherlibs/liblinear/blas/ddot.c.o"
   "CMakeFiles/marsyas.dir/__/otherlibs/liblinear/blas/dnrm2.c.o"
   "CMakeFiles/marsyas.dir/__/otherlibs/liblinear/blas/dscal.c.o"
+  "CMakeFiles/marsyas.dir/marsystems/LibsndfileSource.cpp.o"
   "CMakeFiles/marsyas.dir/__/otherlibs/RtAudio/RtAudio.cpp.o"
   "CMakeFiles/marsyas.dir/__/otherlibs/RtAudio/RtAudio3.cpp.o"
   "CMakeFiles/marsyas.dir/__/otherlibs/RtMidi/RtMidi.cpp.o"
@@ -379,6 +380,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/marsyas.dir/system/marsyas_play_file.cpp.o"
   "CMakeFiles/marsyas.dir/system/MarsyasFeatureExtractor.cpp.o"
   "CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o"
+  "CMakeFiles/marsyas.dir/system/AudioOracle.cpp.o"
   "../../lib/libmarsyas.pdb"
   "../../lib/libmarsyas.dylib"
 )

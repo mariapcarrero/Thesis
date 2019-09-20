@@ -29,7 +29,7 @@
 /* #undef MARSYAS_LOG2STDERR */
 /* #undef MARSYAS_LOG2GUI */
 
-/* #undef MARSYAS_SNDFILE */
+#define MARSYAS_SNDFILE
 /* #undef MARSYAS_LAME */
 /* #undef MARSYAS_MAD */
 /* #undef MARSYAS_MATLAB */

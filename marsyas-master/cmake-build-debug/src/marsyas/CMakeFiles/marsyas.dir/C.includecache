@@ -6,27 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blas.h
-blasp.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blasp.h
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blasp.h
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/daxpy.c
-blas.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blas.h
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/ddot.c
-blas.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blas.h
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/dnrm2.c
-math.h
--
-blas.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blas.h
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/dscal.c
-blas.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/otherlibs/liblinear/blas/blas.h
-

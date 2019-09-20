@@ -24,7 +24,7 @@
 # mrs_natural/inStabilizingDelay = 0
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_natural/onObservations = 1
+# mrs_natural/onObservations = 13
 # LinksTo = 0
 # LinkedFrom = 0
 # mrs_natural/onSamples = 1
@@ -40,27 +40,39 @@
 # LinksTo = 0
 # LinkedFrom = 0
 # mrs_realvec/processedData = # MARSYAS mrs_realvec
-# Size = 1
+# Size = 13
 
 
 # type: matrix
-# rows: 1
+# rows: 13
 # columns: 1
 0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 
-# Size = 1
+# Size = 13
 # MARSYAS mrs_realvec
 
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/filename = D.wav
+# mrs_string/filename = scars.wav
 # LinksTo = 1
 # /Series/net/Accumulator/accum/Series/cnet/SoundFileSource/src/mrs_string/filename
 # LinkedFrom = 0
 # mrs_string/inObsNames = ,
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/onObsNames = Centroid_Power_powerFFT_WinHamming_AudioCh0,WinHamming_AudioCh1,
+# mrs_string/onObsNames = MFCC0_Power_powerFFT_WinHamming_AudioCh0,MFCC1_Power_powerFFT_WinHamming_AudioCh0,MFCC2_Power_powerFFT_WinHamming_AudioCh0,MFCC3_Power_powerFFT_WinHamming_AudioCh0,MFCC4_Power_powerFFT_WinHamming_AudioCh0,MFCC5_Power_powerFFT_WinHamming_AudioCh0,MFCC6_Power_powerFFT_WinHamming_AudioCh0,MFCC7_Power_powerFFT_WinHamming_AudioCh0,MFCC8_Power_powerFFT_WinHamming_AudioCh0,MFCC9_Power_powerFFT_WinHamming_AudioCh0,MFCC10_Power_powerFFT_WinHamming_AudioCh0,MFCC11_Power_powerFFT_WinHamming_AudioCh0,MFCC12_Power_powerFFT_WinHamming_AudioCh0,
 # LinksTo = 0
 # LinkedFrom = 0
 
@@ -149,7 +161,7 @@
 # mrs_natural/pos = 0
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_natural/size = 67936
+# mrs_natural/size = 10157056
 # LinksTo = 0
 # LinkedFrom = 0
 # mrs_real/currentLabel = 0
@@ -194,10 +206,10 @@
 # mrs_string/allfilenames = ,
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/currentlyPlaying = D.wav
+# mrs_string/currentlyPlaying = scars.wav
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/filename = D.wav
+# mrs_string/filename = scars.wav
 # LinksTo = 0
 # LinkedFrom = 1
 # /Series/net/Accumulator/accum/Series/cnet/mrs_string/filename
@@ -210,7 +222,7 @@
 # mrs_string/onObsNames = AudioCh0,AudioCh1,
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/previouslyPlaying = D.wav
+# mrs_string/previouslyPlaying = scars.wav
 # LinksTo = 0
 # LinkedFrom = 0
 # MarSystem
@@ -1257,10 +1269,10 @@
 # LinksTo = 0
 # LinkedFrom = 0
 # MarSystem
-# Type = Centroid
-# Name = cntrd
+# Type = MFCC
+# Name = mfcc
 
-# MarControls = 15
+# MarControls = 16
 # mrs_bool/active = 1
 # LinksTo = 0
 # LinkedFrom = 0
@@ -1273,6 +1285,9 @@
 # mrs_bool/verbose = 0
 # LinksTo = 0
 # LinkedFrom = 0
+# mrs_natural/coefficients = 13
+# LinksTo = 0
+# LinkedFrom = 0
 # mrs_natural/inObservations = 257
 # LinksTo = 0
 # LinkedFrom = 0
@@ -1282,7 +1297,7 @@
 # mrs_natural/inStabilizingDelay = 0
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_natural/onObservations = 1
+# mrs_natural/onObservations = 13
 # LinksTo = 0
 # LinkedFrom = 0
 # mrs_natural/onSamples = 1
@@ -1298,15 +1313,27 @@
 # LinksTo = 0
 # LinkedFrom = 0
 # mrs_realvec/processedData = # MARSYAS mrs_realvec
-# Size = 1
+# Size = 13
 
 
 # type: matrix
-# rows: 1
+# rows: 13
 # columns: 1
 0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 
-# Size = 1
+# Size = 13
 # MARSYAS mrs_realvec
 
 # LinksTo = 0
@@ -1314,7 +1341,7 @@
 # mrs_string/inObsNames = Power_powerFFT_WinHamming_AudioCh0,WinHamming_AudioCh1,
 # LinksTo = 0
 # LinkedFrom = 0
-# mrs_string/onObsNames = Centroid_Power_powerFFT_WinHamming_AudioCh0,WinHamming_AudioCh1,
+# mrs_string/onObsNames = MFCC0_Power_powerFFT_WinHamming_AudioCh0,MFCC1_Power_powerFFT_WinHamming_AudioCh0,MFCC2_Power_powerFFT_WinHamming_AudioCh0,MFCC3_Power_powerFFT_WinHamming_AudioCh0,MFCC4_Power_powerFFT_WinHamming_AudioCh0,MFCC5_Power_powerFFT_WinHamming_AudioCh0,MFCC6_Power_powerFFT_WinHamming_AudioCh0,MFCC7_Power_powerFFT_WinHamming_AudioCh0,MFCC8_Power_powerFFT_WinHamming_AudioCh0,MFCC9_Power_powerFFT_WinHamming_AudioCh0,MFCC10_Power_powerFFT_WinHamming_AudioCh0,MFCC11_Power_powerFFT_WinHamming_AudioCh0,MFCC12_Power_powerFFT_WinHamming_AudioCh0,
 # LinksTo = 0
 # LinkedFrom = 0
 

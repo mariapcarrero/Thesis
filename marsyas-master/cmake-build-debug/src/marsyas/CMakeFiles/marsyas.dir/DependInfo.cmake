@@ -15,6 +15,7 @@ set(CMAKE_C_COMPILER_ID "Clang")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
   "__MACOSX_CORE__"
+  "marsyas_EXPORTS"
   )
 
 # The include file search paths:
@@ -26,6 +27,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../src/otherlibs/RtMidi"
   "../src/otherlibs"
   "../src/otherlibs/libsvm"
+  "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/Collection.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/Collection.cpp.o"
@@ -185,6 +187,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LPC.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/LPC.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LPCC.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/LPCC.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LSP.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/LSP.cpp.o"
+  "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LibsndfileSource.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/LibsndfileSource.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/Limiter.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/Limiter.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/LyonPassiveEar.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/LyonPassiveEar.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/marsystems/MFCC.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/marsystems/MFCC.cpp.o"
@@ -394,6 +397,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/script/parse.cc" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/script/parse.cc.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/script/script.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/script/script.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/statistics.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/statistics.cpp.o"
+  "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/system/AudioOracle.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/CentroidExtractor.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/system/CentroidExtractor.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarControl.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/system/MarControl.cpp.o"
   "/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarControlManager.cpp" "/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/marsyas/CMakeFiles/marsyas.dir/system/MarControlManager.cpp.o"
@@ -410,6 +414,7 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "__MACOSX_CORE__"
+  "marsyas_EXPORTS"
   )
 
 # The include file search paths:
@@ -421,6 +426,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/otherlibs/RtMidi"
   "../src/otherlibs"
   "../src/otherlibs/libsvm"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.
