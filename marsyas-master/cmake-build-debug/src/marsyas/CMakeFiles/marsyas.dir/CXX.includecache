@@ -224,6 +224,30 @@ sys/types.h
 complex
 -
 
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.cpp
+AudioOracle.h
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
+
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
+iostream
+-
+new
+-
+string
+-
+vector
+-
+variant
+-
+random
+-
+algorithm
+-
+cmath
+-
+MarSystemManager.h
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
+
 /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
 marsyas/system/MarSystem.h
 -
@@ -231,14 +255,6 @@ string
 -
 map
 -
-vector
--
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/marsyas_play_file.cpp
-MarSystemManager.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
-MarSystemManager.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
 vector
 -
 

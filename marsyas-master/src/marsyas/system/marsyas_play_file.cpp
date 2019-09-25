@@ -30,12 +30,11 @@ void sfplay(string sfName, float gain)
 //
 // Created by MARIA PAULA CARRERO on 8/26/19.
 //
-#include "MarSystemManager.h"
-#include <vector>
+#include "AudioOracle.h"
 using namespace std;
-using namespace Marsyas;
 
 
+/*
 void recognize(string sfName)
 {
     MarSystemManager mng;
@@ -53,7 +52,7 @@ void recognize(string sfName)
     pnet->addMarSystem(mng.create("Rolloff/rolloff"));
 
     //pnet->updControl("mrs_natural/inSamples", 256);
-    vector <vector <mrs_real>> vector_real;
+    vector <vector <double>> vector_real;
     int counter = 0;
     while ( pnet->getctrl("SoundFileSource/src/mrs_bool/hasData")->to<mrs_bool>() )
     {
@@ -84,7 +83,7 @@ void recognize(string sfName)
     cout << "COUNTER IS:" << counter << endl;
     delete pnet;
 }
-
+*/
 /*
 int main()Am
 {
@@ -128,16 +127,7 @@ int main()
 
 int main()
 {
-    string fileName;
-    cout << "Please enter filename: " << endl;
-    cin >> fileName;
-    if (fileName.size() == 0)
-    {
-        cout<<"Please enter filename."<<endl;
-        exit(1);
-    }
-    cout << "Processing file " << fileName << endl;
-
-    recognize(fileName);
-    exit(0);
+    AudioOracle audio_oracle;
+    audio_oracle.AnalyseAudio("D.wav");
+   // exit(0);
 }

@@ -9,11 +9,10 @@
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/install/local.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/install/strip.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/install.dir
-/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/package_source.dir
+/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/edit_cache.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/package.dir
-/Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/marsyas_centroid.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/list_install_components.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/CMakeFiles/marsyas_play_file.dir
 /Users/mariapaulacarrero/Downloads/marsyas-master/cmake-build-debug/src/otherlibs/CMakeFiles/install/local.dir

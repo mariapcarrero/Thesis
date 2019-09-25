@@ -8,8 +8,9 @@
 #include <variant>
 #include <random>
 #include <algorithm>
+#include <cmath>
 #include "MarSystemManager.h"
-
+#include <map>
 #ifndef AudioOracle_AudioOracle_H
 #define AudioOracle_AudioOracle_H
 
@@ -65,7 +66,8 @@ class SingleTransition
 public:
     int first_state_; /**< denotes the first state of the transition */
     int last_state_; /**< denotes the last state of the transition */
-    char symbol_; /**< denotes the symbol (letter) of the transition */
+    vector <mrs_real> vector_real_; /**< denotes the symbol (letter) of the transition */
+  // double * vector_real_;
 };
 
 /** The class State denotes the elements that belong to each state
@@ -87,20 +89,24 @@ public:
 };
 
 
+
 class AudioOracle
 {
 public:
     vector <State> states_; /**< vector of all the states */
     vector <vector<int>> T; /**< vector where each position has all the suffix transitions directed to each state */
-    void AddFrame( int i, vector <mrs_real> vector_real);
+    vector <vector <mrs_real>> S;
+    map <int, double*> feature_map;
+    void AddFrame( int i, vector <mrs_real> vector_real, double threshold);
     void CreateState(int m);
-    void SynthesizeAudio(string sfName);
+    void AnalyseAudio(string sfName);
     int LengthCommonSuffix(int phi_one, int phi_two);
     int FindBetter(int i, char alpha, string word);
-    string FOGenerate(int& i, string v, float q);
+   // string FOGenerate(int& i, string v, float q);
     void AudioOracleStart( string word);
     void AddState(int first_state);
-    void AddTransition(int first_state, int last_state, char symbol);
+    void AddTransition(int first_state, int last_state, vector <mrs_real> vector_real);
+
 };
 
 

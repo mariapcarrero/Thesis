@@ -20,6 +20,7 @@ src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o
  ../src/marsyas/system/MarControlValue.h
  ../src/marsyas/system/MarSystem.h
  ../src/marsyas/types.h
+ /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
  /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
  /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/marsyas_play_file.cpp
  src/marsyas/export.h

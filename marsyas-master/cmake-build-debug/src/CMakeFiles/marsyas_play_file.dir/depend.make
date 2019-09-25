@@ -19,6 +19,7 @@ src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/system/MarControlValue.h
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/system/MarSystem.h
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/types.h
+src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/system/AudioOracle.h
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/system/MarSystemManager.h
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: ../src/marsyas/system/marsyas_play_file.cpp
 src/CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o: src/marsyas/export.h
