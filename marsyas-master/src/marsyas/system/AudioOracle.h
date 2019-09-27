@@ -67,6 +67,7 @@ public:
     int first_state_; /**< denotes the first state of the transition */
     int last_state_; /**< denotes the last state of the transition */
     vector <mrs_real> vector_real_; /**< denotes the symbol (letter) of the transition */
+    int corresponding_state_;
   // double * vector_real_;
 };
 
@@ -105,7 +106,7 @@ public:
    // string FOGenerate(int& i, string v, float q);
     void AudioOracleStart( string word);
     void AddState(int first_state);
-    void AddTransition(int first_state, int last_state, vector <mrs_real> vector_real);
+    void AddTransition(int first_state, int last_state, vector <mrs_real> vector_real, int feature_state);
 
 };
 
