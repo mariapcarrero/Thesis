@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/omRms.dir/omRms.cpp.o"
-  "../../../bin/omRms.pdb"
   "../../../bin/omRms"
+  "../../../bin/omRms.pdb"
+  "CMakeFiles/omRms.dir/omRms.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

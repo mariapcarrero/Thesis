@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/aim.dir/aim.cpp.o"
-  "../../../bin/aim.pdb"
   "../../../bin/aim"
+  "../../../bin/aim.pdb"
+  "CMakeFiles/aim.dir/aim.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

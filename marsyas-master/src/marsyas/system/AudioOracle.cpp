@@ -1,8 +1,8 @@
 
 /*! \file AudioOracle.cpp
-    \brief A file that contains the functions needed for the creation of a Factor Oracle.
+    \brief A file that contains the functions needed for the creation of an Audio Oracle.
 
-    Five main functions: AudioOracleStart, AddFrame, LengthCommonSuffix, FindBetter and FOGenerate.
+    Five main functions: AnalyseAudio, AddFrame, LengthCommonSuffix, FindBetter and AOGenerate.
 */
 #include "AudioOracle.h"
 
@@ -54,12 +54,12 @@ void AudioOracle::AnalyseAudio(string sfName)
         real_pointer = processedData.getData();
         //cout << "val pointer: "<< *real_pointer << endl;
         vector <mrs_real> temp_vector;
-        for (int temp_counter = 0; temp_counter < 1023; temp_counter ++ )
+        for (int temp_counter = 0; temp_counter < 1024; temp_counter ++ )
         {
             temp_vector.push_back(*(real_pointer+temp_counter));
         }
         // cout <<"getData: " << *processedData.getData() << endl;
-      /*  for (int w = 0; w < 1023; w++)
+      /*  for (int w = 0; w < 1024; w++)
         {
             cout << temp_vector[w] << ", ";
         }
@@ -67,7 +67,7 @@ void AudioOracle::AnalyseAudio(string sfName)
        // this->S.push_back(temp_vector);
         double * map_pointer = &(temp_vector[0]);
         this->feature_map.insert({counter, map_pointer});
-        this->AddFrame(counter, temp_vector, 5.5 );
+        this->AddFrame(counter, temp_vector, 4.5 );
         counter = counter +1;
         // if we need to get the Spectrum and modify it, here is the way
         // to do it.  Notice that we must open a new scope using curly
@@ -78,6 +78,7 @@ void AudioOracle::AnalyseAudio(string sfName)
     for (int w = 0; w < counter; w++)
     {
         cout << "STATE: " << w << endl;
+        cout << "suffix: " << this->states_[w].suffix_transition_ << endl;
         for (int x = 0; x < this->states_[w].transition_.size(); x++)
         {
             cout << "first state:" << this->states_[w].transition_[x].first_state_ << endl << "second state: " << this->states_[w].transition_[x].last_state_ << endl  << "corresponding state: " << this->states_[w].transition_[x].corresponding_state_ << endl;
@@ -196,7 +197,8 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
     //! A normal member taking four arguments and returning no value.
     /*!
       \param i an integer argument.
-      \param word a string argument.
+      \param vector_real a vector of mrs_real (aka double) values.
+      \param threshold a double value which determines the level of similarity between vectors.
     */
     //char alpha = word[i-1];
     //cout << "inside AddFrame, state: " << i << endl;
@@ -232,11 +234,11 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
                // cout << this->states_[k].transition_[1].last_state_ << endl;
                 cout << "k: " << k << endl;
                 k = this->states_[k].suffix_transition_;
-
-                flag = 1;
+                cout << "k after: " << k << endl;
                // cout << "entro" << k << endl;
-
             }
+            if (iter >= this->states_[k].transition_.size())
+                flag = 1;
             iter++;
         }
         if (iter == this->states_[k].transition_.size() && flag == 0)
@@ -247,6 +249,7 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
     if (k == -1) {
         /* this->states_[statemplusone].suffix_transition_ = 0;
          this->states_[statemplusone].lrs_ = 0;*/
+        cout << "entro a  k == -1 " << endl;
         s = 0;
     } else {
         flag = 0, iter = 0;
@@ -257,22 +260,24 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
             this->states_[statemplusone].suffix_transition_ = this->states_[k].transition_[iter].last_state_;
             this->states_[statemplusone].lrs_ = this->LengthCommonSuffix(phi, this->states_[statemplusone].suffix_transition_ -1) + 1;
         }*/
-        double *v1_pointer = &(vector_real[0]);
         //int state_min_distance;
         iter = 0;
         double min_distance = INFINITY;
         while (iter < this->states_[k].transition_.size()) {
-
+            double *v1_pointer = &(vector_real[0]);
             double *v2_pointer = &(this->states_[k].transition_[iter].vector_real_[0]);
             //cout << "inside last: " << *v1_pointer << " " << *v2_pointer << endl;
-            double euclidean_result = vectorDistance(v1_pointer, (v1_pointer + 1023), v2_pointer);
+            double euclidean_result = vectorDistance(v1_pointer, (v1_pointer + 1024), v2_pointer);
 
             if (euclidean_result < min_distance) {
                 s = this->states_[k].transition_[iter].last_state_;
+                cout << "s prev: " << s << " k: " << k << endl;
+                cout << "min: " << min_distance << " euc r: " << euclidean_result <<  endl;
                 min_distance = euclidean_result;
             }
             iter++;
         }
+        cout << "s final: " << s << endl;
     }
     this->states_[i + 1].suffix_transition_ = s;
 }
@@ -301,11 +306,7 @@ void AudioOracle::AudioOracleStart(string word)
             this->AddFrame(i, {}, 0.05);
         }
     }
-   /* else
-    {
-        this->AddTransition(0,0,);
-    }*/
-
+    
     for (int i = 0; i < len+1; i++){
 
         cout << "STATE[" << i << "]:\n" << "LRS: "<< this->states_[i].lrs_ << "\n";

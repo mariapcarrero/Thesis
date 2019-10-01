@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mudbox.dir/mudbox.cpp.o"
-  "../../../bin/mudbox.pdb"
   "../../../bin/mudbox"
+  "../../../bin/mudbox.pdb"
+  "CMakeFiles/mudbox.dir/mudbox.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tempo.dir/tempo.cpp.o"
-  "../../../bin/tempo.pdb"
   "../../../bin/tempo"
+  "../../../bin/tempo.pdb"
+  "CMakeFiles/tempo.dir/tempo.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

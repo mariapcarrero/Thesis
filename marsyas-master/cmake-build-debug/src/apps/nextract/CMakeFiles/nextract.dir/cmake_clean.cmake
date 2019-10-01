@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nextract.dir/nextract.cpp.o"
-  "../../../bin/nextract.pdb"
   "../../../bin/nextract"
+  "../../../bin/nextract.pdb"
+  "CMakeFiles/nextract.dir/nextract.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WHaSp.dir/WHaSp_main.cpp.o"
-  "../../../bin/WHaSp.pdb"
   "../../../bin/WHaSp"
+  "../../../bin/WHaSp.pdb"
+  "CMakeFiles/WHaSp.dir/WHaSp_main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

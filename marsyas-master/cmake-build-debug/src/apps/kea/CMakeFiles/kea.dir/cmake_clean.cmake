@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kea.dir/kea.cpp.o"
-  "../../../bin/kea.pdb"
   "../../../bin/kea"
+  "../../../bin/kea.pdb"
+  "CMakeFiles/kea.dir/kea.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

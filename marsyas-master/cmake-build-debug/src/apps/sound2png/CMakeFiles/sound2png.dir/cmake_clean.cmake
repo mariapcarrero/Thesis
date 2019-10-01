@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sound2png.dir/sound2png.cpp.o"
-  "../../../bin/sound2png.pdb"
   "../../../bin/sound2png"
+  "../../../bin/sound2png.pdb"
+  "CMakeFiles/sound2png.dir/sound2png.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

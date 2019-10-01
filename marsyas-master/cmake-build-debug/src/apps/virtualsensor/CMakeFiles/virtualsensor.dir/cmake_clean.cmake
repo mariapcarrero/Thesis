@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/virtualsensor.dir/virtualsensor.cpp.o"
-  "../../../bin/virtualsensor.pdb"
   "../../../bin/virtualsensor"
+  "../../../bin/virtualsensor.pdb"
+  "CMakeFiles/virtualsensor.dir/virtualsensor.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

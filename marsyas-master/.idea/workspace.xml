@@ -42,8 +42,8 @@
       <config projectName="marsyas" targetName="marsyas-debug" />
       <config projectName="marsyas" targetName="sfinfo" />
       <config projectName="marsyas" targetName="ibt" />
-      <config projectName="marsyas" targetName="doxy" />
       <config projectName="marsyas" targetName="marsyas-run" />
+      <config projectName="marsyas" targetName="doxy" />
       <config projectName="marsyas" targetName="marsyas" />
       <config projectName="marsyas" targetName="nextract" />
       <config projectName="marsyas" targetName="aim" />
@@ -402,6 +402,9 @@
       <workItem from="1568715510950" duration="1133000" />
       <workItem from="1568728961468" duration="13618000" />
       <workItem from="1569231463156" duration="21040000" />
+      <workItem from="1569573983289" duration="6216000" />
+      <workItem from="1569844552181" duration="128000" />
+      <workItem from="1569844768473" duration="1067000" />
     </task>
     <servers />
   </component>

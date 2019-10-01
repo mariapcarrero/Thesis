@@ -224,6 +224,10 @@ sys/types.h
 complex
 -
 
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.cpp
+AudioOracle.h
+/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
+
 /Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
 iostream
 -
@@ -255,12 +259,6 @@ map
 -
 vector
 -
-
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/marsyas_play_file.cpp
-MarSystemManager.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/MarSystemManager.h
-AudioOracle.h
-/Users/mariapaulacarrero/Downloads/marsyas-master/src/marsyas/system/AudioOracle.h
 
 src/marsyas/export.h
 

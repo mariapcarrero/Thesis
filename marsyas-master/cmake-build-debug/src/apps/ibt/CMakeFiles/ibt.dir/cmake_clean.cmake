@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ibt.dir/ibt.cpp.o"
-  "../../../bin/ibt.pdb"
   "../../../bin/ibt"
+  "../../../bin/ibt.pdb"
+  "CMakeFiles/ibt.dir/ibt.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

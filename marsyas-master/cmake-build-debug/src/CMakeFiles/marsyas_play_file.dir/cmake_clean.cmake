@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o"
-  "../bin/marsyas_play_file.pdb"
   "../bin/marsyas_play_file"
+  "../bin/marsyas_play_file.pdb"
+  "CMakeFiles/marsyas_play_file.dir/marsyas/system/marsyas_play_file.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

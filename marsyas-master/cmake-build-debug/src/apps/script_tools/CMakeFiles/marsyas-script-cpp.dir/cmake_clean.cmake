@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/marsyas-script-cpp.dir/script_to_cpp.cpp.o"
-  "../../../bin/marsyas-script-cpp.pdb"
   "../../../bin/marsyas-script-cpp"
+  "../../../bin/marsyas-script-cpp.pdb"
+  "CMakeFiles/marsyas-script-cpp.dir/script_to_cpp.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

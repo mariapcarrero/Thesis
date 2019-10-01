@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wreckBeach.dir/wreckBeach.cpp.o"
-  "../../../bin/wreckBeach.pdb"
   "../../../bin/wreckBeach"
+  "../../../bin/wreckBeach.pdb"
+  "CMakeFiles/wreckBeach.dir/wreckBeach.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

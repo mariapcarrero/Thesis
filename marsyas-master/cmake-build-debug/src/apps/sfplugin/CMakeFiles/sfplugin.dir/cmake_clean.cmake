@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sfplugin.dir/sfplugin.cpp.o"
-  "../../../bin/sfplugin.pdb"
   "../../../bin/sfplugin"
+  "../../../bin/sfplugin.pdb"
+  "CMakeFiles/sfplugin.dir/sfplugin.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

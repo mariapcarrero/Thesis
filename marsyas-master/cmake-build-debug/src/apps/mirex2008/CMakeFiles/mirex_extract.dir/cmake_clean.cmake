@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mirex_extract.dir/mirex_extract.cpp.o"
-  "../../../bin/mirex_extract.pdb"
   "../../../bin/mirex_extract"
+  "../../../bin/mirex_extract.pdb"
+  "CMakeFiles/mirex_extract.dir/mirex_extract.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

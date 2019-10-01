@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/peakSynth.dir/peakSynth.cpp.o"
-  "../../../bin/peakSynth.pdb"
   "../../../bin/peakSynth"
+  "../../../bin/peakSynth.pdb"
+  "CMakeFiles/peakSynth.dir/peakSynth.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

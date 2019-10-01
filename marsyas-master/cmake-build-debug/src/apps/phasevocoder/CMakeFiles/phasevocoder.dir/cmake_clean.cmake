@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/phasevocoder.dir/phasevocoder.cpp.o"
-  "../../../bin/phasevocoder.pdb"
   "../../../bin/phasevocoder"
+  "../../../bin/phasevocoder.pdb"
+  "CMakeFiles/phasevocoder.dir/phasevocoder.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

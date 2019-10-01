@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bextract.dir/bextract.cpp.o"
-  "../../../bin/bextract.pdb"
   "../../../bin/bextract"
+  "../../../bin/bextract.pdb"
+  "CMakeFiles/bextract.dir/bextract.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

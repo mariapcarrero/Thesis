@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/onsets.dir/onsets.cpp.o"
-  "../../../bin/onsets.pdb"
   "../../../bin/onsets"
+  "../../../bin/onsets.pdb"
+  "CMakeFiles/onsets.dir/onsets.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

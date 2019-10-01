@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pitchdtw_pair.dir/pitchdtw_pair.cpp.o"
-  "../../../bin/pitchdtw_pair.pdb"
   "../../../bin/pitchdtw_pair"
+  "../../../bin/pitchdtw_pair.pdb"
+  "CMakeFiles/pitchdtw_pair.dir/pitchdtw_pair.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

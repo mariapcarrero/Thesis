@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/audioCompare.dir/audioCompare.cpp.o"
-  "../../../bin/audioCompare.pdb"
   "../../../bin/audioCompare"
+  "../../../bin/audioCompare.pdb"
+  "CMakeFiles/audioCompare.dir/audioCompare.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

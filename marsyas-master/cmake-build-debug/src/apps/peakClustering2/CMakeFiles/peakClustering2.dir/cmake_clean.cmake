@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/peakClustering2.dir/peakClustering2.cpp.o"
-  "../../../bin/peakClustering2.pdb"
   "../../../bin/peakClustering2"
+  "../../../bin/peakClustering2.pdb"
+  "CMakeFiles/peakClustering2.dir/peakClustering2.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

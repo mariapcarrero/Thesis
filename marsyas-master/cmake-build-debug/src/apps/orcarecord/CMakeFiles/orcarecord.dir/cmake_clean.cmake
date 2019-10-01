@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/orcarecord.dir/orcarecord.cpp.o"
-  "../../../bin/orcarecord.pdb"
   "../../../bin/orcarecord"
+  "../../../bin/orcarecord.pdb"
+  "CMakeFiles/orcarecord.dir/orcarecord.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

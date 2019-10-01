@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pitchextract.dir/pitchextract.cpp.o"
-  "../../../bin/pitchextract.pdb"
   "../../../bin/pitchextract"
+  "../../../bin/pitchextract.pdb"
+  "CMakeFiles/pitchextract.dir/pitchextract.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

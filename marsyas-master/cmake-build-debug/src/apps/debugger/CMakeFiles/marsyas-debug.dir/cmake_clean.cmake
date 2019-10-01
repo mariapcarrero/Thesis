@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/marsyas-debug.dir/debugger.cpp.o"
-  "../../../bin/marsyas-debug.pdb"
   "../../../bin/marsyas-debug"
+  "../../../bin/marsyas-debug.pdb"
+  "CMakeFiles/marsyas-debug.dir/debugger.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

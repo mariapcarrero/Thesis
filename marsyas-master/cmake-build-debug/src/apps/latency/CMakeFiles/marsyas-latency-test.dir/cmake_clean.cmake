@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/marsyas-latency-test.dir/main.cpp.o"
-  "../../../bin/marsyas-latency-test.pdb"
   "../../../bin/marsyas-latency-test"
+  "../../../bin/marsyas-latency-test.pdb"
+  "CMakeFiles/marsyas-latency-test.dir/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sfplay.dir/sfplay.cpp.o"
-  "../../../bin/sfplay.pdb"
   "../../../bin/sfplay"
+  "../../../bin/sfplay.pdb"
+  "CMakeFiles/sfplay.dir/sfplay.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
