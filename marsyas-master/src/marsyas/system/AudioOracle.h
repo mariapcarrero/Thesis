@@ -61,6 +61,7 @@ using namespace std;
 using namespace Marsyas;
 /** The class SingleTransition denotes the elements that belong to each transition
   */
+
 class SingleTransition
 {
 public:
@@ -89,6 +90,12 @@ public:
     }
 };
 
+class FilteredTransition
+{
+public:
+    int current_lrs_;
+    SingleTransition current_transition_; /**< denotes the transition */
+};
 
 
 class AudioOracle

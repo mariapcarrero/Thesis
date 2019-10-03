@@ -128,6 +128,6 @@ int main()
 int main()
 {
     AudioOracle audio_oracle;
-    audio_oracle.AnalyseAudio("BlueJay.wav");
+    audio_oracle.AnalyseAudio("scars.wav");
    // exit(0);
 }
