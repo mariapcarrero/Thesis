@@ -109,7 +109,7 @@ public:
     void CreateState(int m);
     void AnalyseAudio(string sfName);
     int LengthCommonSuffix(int phi_one, int phi_two);
-    int FindBetter(int i, char alpha, string word);
+    void FindBetter(int i, double threshold, vector <mrs_real> vector_real);
    // string FOGenerate(int& i, string v, float q);
     void AudioOracleStart( string word);
     void AddState(int first_state);

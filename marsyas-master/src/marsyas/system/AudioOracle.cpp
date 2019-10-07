@@ -69,7 +69,7 @@ void AudioOracle::AnalyseAudio(string sfName)
        // this->S.push_back(temp_vector);
         double * map_pointer = &(temp_vector[0]);
         this->feature_map.insert({counter, map_pointer});
-        this->AddFrame(counter, temp_vector, 20 );
+        this->AddFrame(counter, temp_vector, 9.65 );
         counter = counter +1;
         // if we need to get the Spectrum and modify it, here is the way
         // to do it.  Notice that we must open a new scope using curly
@@ -92,6 +92,7 @@ void AudioOracle::AnalyseAudio(string sfName)
     for (int w = 0; w < counter; w++)
     {
         cout << "STATE: " << w << endl;
+        cout << "LRS: " << this->states_[w].lrs_ << endl;
         if (this->T[w].empty())
             cout << "empty" << endl;
         for (int x = 0; x < this->T[w].size(); x++)
@@ -168,7 +169,7 @@ string AudioOracle::FOGenerate( int& i, string v, float q)
 */
 
 
-int AudioOracle::FindBetter(int i, char alpha, string word)
+void AudioOracle::FindBetter(int state_i_plus_one, double threshold, vector <mrs_real> vector_real)
 {
     //! A normal member taking five arguments and returning an integer value.
     /*!
@@ -179,33 +180,55 @@ int AudioOracle::FindBetter(int i, char alpha, string word)
       \return A better state
     */
 
-    int len_t = this->T[this->states_[i].suffix_transition_].size();
-    int statei = this->states_[i].suffix_transition_;
-    if (len_t == 0) return 0;
-    sort(this->T[statei].begin(), this->T[statei].end());
-    for (int j = 0; j < len_t; j++)
-    {
-        if (this->states_[this->T[this->states_[i].suffix_transition_][j]].lrs_ == this->states_[i].lrs_ && word[this->T[this->states_[i].suffix_transition_][j] - this->states_[i].lrs_ - 1] == alpha)
-        {
-            int out = T[this->states_[i].suffix_transition_][j];
-            return out;
+    int iter = 0;
+    double min_distance = INFINITY;
+    vector <FilteredTransition> filtered_transitions;
+    while (iter < this->states_[k].transition_.size()) {
+        double *v1_pointer = &(vector_real[0]);
+        double *v2_pointer = &(this->states_[k].transition_[iter].vector_real_[0]);
+       // cout << "inside lst: " << *v1_pointer << " " << *v2_pointer << endl;
+        double euclidean_result = vectorDistance(v1_pointer, (v1_pointer + 4095), v2_pointer);
+       // cout << "euc result1: " << euclidean_result << endl;
+        if (euclidean_result < threshold) {
+          //  cout << "inside euc res " << endl;
+            FilteredTransition current_filtered_trans;
+            current_filtered_trans.current_transition_ = this->states_[k].transition_[iter];
+            current_filtered_trans.current_lrs_ = this->states_[this->states_[k].transition_[iter].last_state_].lrs_;
+            filtered_transitions.push_back(current_filtered_trans);
         }
-
+        iter++;
     }
-    return 0;
+    typedef std::function<bool(FilteredTransition transition_1, FilteredTransition transition_2)> Comparator;
+    // Defining a lambda function to compare two lrs
+    Comparator compFunctor =
+            [](FilteredTransition transition_1, FilteredTransition transition_2)
+            {
+                return transition_1.current_lrs_ < transition_2.current_lrs_;
+            };
+    sort(filtered_transitions.begin(),filtered_transitions.end(), compFunctor);
+    for (int w = 0; w < filtered_transitions.size(); w++)
+    {
+        this->states_[state_i_plus_one].suffix_transition_ = filtered_transitions[w].current_transition_.last_state_; //preguntar a jaime
+     //   cout << "last: " <<  filtered_transitions[w].current_transition_.last_state_ << endl;
+        this->T[filtered_transitions[w].current_transition_.last_state_].push_back(state_i_plus_one);
+    }
+
 }
-int AudioOracle::LengthCommonSuffix( int phi_one, int phi_two)
+int AudioOracle::LengthCommonSuffix( int pi_1, int pi_2)
 {
-    if (phi_two == this->states_[phi_one].suffix_transition_)
-        return this->states_[phi_one].lrs_;
+    if (pi_2 == this->states_[pi_1].suffix_transition_)
+    {
+    //    cout << "pi_2 == pi_1: " << endl << pi_2 << this->states_[pi_1].suffix_transition_ << this->states_[pi_1].lrs_ << endl;
+       return this->states_[pi_1].lrs_;
+    }
     else
     {
-        while (this->states_[phi_one].suffix_transition_!= this->states_[phi_two].suffix_transition_)
-            phi_two = this->states_[phi_two].suffix_transition_;
+        while (this->states_[pi_1].suffix_transition_ != this->states_[pi_2].suffix_transition_)
+        {
+            pi_2 = this->states_[pi_2].suffix_transition_;
+        }
     }
-    if (this->states_[phi_one].lrs_ <= this->states_[phi_two].lrs_)
-        return this->states_[phi_one].lrs_;
-    else return this->states_[phi_two].lrs_;
+    return min(this->states_[pi_1].lrs_,this->states_[pi_2].lrs_) + 1;
 }
 void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshold) {
     //! A normal member taking four arguments and returning no value.
@@ -238,14 +261,14 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
            // cout << "v1: " << *v1_pointer << endl;
             iter++;
             double euclidean_result = vectorDistance(v1_pointer, (v1_pointer + 4095), v2_pointer);
-            cout << "euc result: " << euclidean_result << endl;
+           // cout << "euc result: " << euclidean_result << endl;
             if (euclidean_result < threshold) {
                 AddTransition(k, state_i_plus_one, vector_real,i);
                // cout << this->states_[k].transition_[1].last_state_ << endl;
-                cout << "k: " << k << endl;
+             //   cout << "k: " << k << endl;
                 pi_1 = k;
                 k = this->states_[k].suffix_transition_;
-                cout << "k after: " << k << endl;
+              //  cout << "k after: " << k << endl;
                // cout << "entro" << k << endl;
             }
             if (iter >= this->states_[k].transition_.size())
@@ -259,74 +282,40 @@ void AudioOracle::AddFrame(int i, vector <mrs_real> vector_real, double threshol
     if (k == -1) {
         /* this->states_[statemplusone].suffix_transition_ = 0;
          this->states_[statemplusone].lrs_ = 0;*/
-        cout << "entro a  k == -1 " << endl;
+       // cout << "entro a  k == -1 " << endl;
         this->states_[state_i_plus_one].suffix_transition_ = 0;
+        this->states_[state_i_plus_one].lrs_ = 0;
     }
     else {
+       // FindBetter(state_i_plus_one,threshold,vector_real);
+        s = 0;
         flag = 0, iter = 0;
-        /*
-        if (this->states_[k].transition_[iter].vector_real_ == vector_real)
-        {
-            flag = 1;
-            this->states_[statemplusone].suffix_transition_ = this->states_[k].transition_[iter].last_state_;
-            this->states_[statemplusone].lrs_ = this->LengthCommonSuffix(phi, this->states_[statemplusone].suffix_transition_ -1) + 1;
-        }*/
-        //int state_min_distance;
-        iter = 0;
         double min_distance = INFINITY;
-        vector <FilteredTransition> filtered_transitions;
         while (iter < this->states_[k].transition_.size()) {
+
             double *v1_pointer = &(vector_real[0]);
             double *v2_pointer = &(this->states_[k].transition_[iter].vector_real_[0]);
-            cout << "inside lst: " << *v1_pointer << " " << *v2_pointer << endl;
+            //cout << "inside last: " << *v1_pointer << " " << *v2_pointer << endl;
             double euclidean_result = vectorDistance(v1_pointer, (v1_pointer + 4095), v2_pointer);
-            cout << "euc result1: " << euclidean_result << endl;
-            if (euclidean_result < threshold) {
-                cout << "inside euc res " << endl;
-                FilteredTransition current_filtered_trans;
-                current_filtered_trans.current_transition_ = this->states_[k].transition_[iter];
-                current_filtered_trans.current_lrs_ = this->states_[this->states_[k].transition_[iter].last_state_].lrs_;
-                filtered_transitions.push_back(current_filtered_trans);
+
+            if (euclidean_result < min_distance) {
+                s = this->states_[k].transition_[iter].last_state_;
+             //   cout << "s prev: " << s << " k: " << k << endl;
+               // cout << "min: " << min_distance << " euc r: " << euclidean_result <<  endl;
+                min_distance = euclidean_result;
             }
             iter++;
         }
-        typedef std::function<bool(FilteredTransition transition_1, FilteredTransition transition_2)> Comparator;
-        // Defining a lambda function to compare two lrs
-        Comparator compFunctor =
-                [](FilteredTransition transition_1, FilteredTransition transition_2)
-                {
-                    return transition_1.current_lrs_ < transition_2.current_lrs_;
-                };
-        sort(filtered_transitions.begin(),filtered_transitions.end(), compFunctor);
-        for (int w = 0; w < filtered_transitions.size(); w++)
-        {
-            this->states_[state_i_plus_one].suffix_transition_ = filtered_transitions[w].current_transition_.last_state_; //preguntar a jaime
-            cout << "last: " <<  filtered_transitions[w].current_transition_.last_state_ << endl;
-            this->T[filtered_transitions[w].current_transition_.last_state_].push_back(i);
-        }
+        this->states_[state_i_plus_one].suffix_transition_ = s;
+        this->states_[state_i_plus_one].lrs_ = this->LengthCommonSuffix(pi_1,this->states_[state_i_plus_one].suffix_transition_ - 1);
+        //cout << "LRS INSIDE:" << state_i_plus_one << "-- "<< this->states_[state_i_plus_one].lrs_ << endl;
     }
-    int beta = this->states_[state_i_plus_one].suffix_transition_;
-    if (beta == 0 || beta == 1)
+    /*if (k != 0)
     {
-        this->states_[state_i_plus_one].lrs_ = 0;
-    }
-    else
-    {
-        pi_2 = beta - 1;
-        if (pi_2 == this->states_[pi_1].suffix_transition_)
-        {
-            this->states_[state_i_plus_one].lrs_ = this->states_[pi_1].suffix_transition_ + 1;
-        }
-        else
-        {
-            while (this->states_[pi_1].suffix_transition_ != this->states_[pi_2].suffix_transition_)
-            {
-                pi_2 = this->states_[pi_2].suffix_transition_;
-            }
-            this->states_[state_i_plus_one].lrs_ = this->states_[pi_1].suffix_transition_ + 1;
-        }
-    }
-    this->states_[state_i_plus_one].lrs_ = min(this->states_[pi_1].lrs_,this->states_[pi_2].lrs_) + 1;
+        this->states_[state_i_plus_one].lrs_ = this->states_[state_i_plus_one].lrs_ + 1;
+        this->states_[state_i_plus_one].suffix_transition_ = k;
+    }*/
+    this->T[this->states_[state_i_plus_one].suffix_transition_].push_back(state_i_plus_one);
 }
 
 

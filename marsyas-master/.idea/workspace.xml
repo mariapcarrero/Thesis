@@ -2,51 +2,51 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="marsyas" targetName="marsyas-latency-test" />
       <config projectName="marsyas" targetName="pitchdtw_pair" />
-      <config projectName="marsyas" targetName="virtualsensor" />
-      <config projectName="marsyas" targetName="speakerSeg2" />
-      <config projectName="marsyas" targetName="marsyas_play_file" />
-      <config projectName="marsyas" targetName="orcarecord" />
-      <config projectName="marsyas" targetName="peakClustering" />
-      <config projectName="marsyas" targetName="mudbox" />
-      <config projectName="marsyas" targetName="oscpack" />
-      <config projectName="marsyas" targetName="peakClustering2" />
-      <config projectName="marsyas" targetName="sound2png" />
-      <config projectName="marsyas" targetName="pitchdtw" />
-      <config projectName="marsyas" targetName="sfplugin" />
-      <config projectName="marsyas" targetName="marsyas-script-cpp" />
-      <config projectName="marsyas" targetName="phasevocoder" />
-      <config projectName="marsyas" targetName="sfplay" />
-      <config projectName="marsyas" targetName="mirex_extract" />
-      <config projectName="marsyas" targetName="tempo" />
-      <config projectName="marsyas" targetName="kea" />
-      <config projectName="marsyas" targetName="record" />
-      <config projectName="marsyas" targetName="docs" />
-      <config projectName="marsyas" targetName="onsets" />
-      <config projectName="marsyas" targetName="omRms" />
-      <config projectName="marsyas" targetName="helloWorld" />
-      <config projectName="marsyas" targetName="rhythmMap" />
-      <config projectName="marsyas" targetName="mkcollection" />
-      <config projectName="marsyas" targetName="pitchextract" />
-      <config projectName="marsyas" targetName="WHaSp" />
-      <config projectName="marsyas" targetName="mirex_train_and_predict" />
-      <config projectName="marsyas" targetName="peakClusteringEval" />
-      <config projectName="marsyas" targetName="marsyas-info" />
-      <config projectName="marsyas" targetName="wreckBeach" />
       <config projectName="marsyas" targetName="sound2sound" />
-      <config projectName="marsyas" targetName="speakerSeg" />
-      <config projectName="marsyas" targetName="bextract" />
-      <config projectName="marsyas" targetName="peakSynth" />
-      <config projectName="marsyas" targetName="audioCompare" />
-      <config projectName="marsyas" targetName="marsyas-debug" />
+      <config projectName="marsyas" targetName="peakClustering2" />
+      <config projectName="marsyas" targetName="orcarecord" />
+      <config projectName="marsyas" targetName="peakClusteringEval" />
+      <config projectName="marsyas" targetName="sfplugin" />
+      <config projectName="marsyas" targetName="marsyas-info" />
+      <config projectName="marsyas" targetName="kea" />
       <config projectName="marsyas" targetName="sfinfo" />
-      <config projectName="marsyas" targetName="ibt" />
-      <config projectName="marsyas" targetName="marsyas-run" />
-      <config projectName="marsyas" targetName="doxy" />
+      <config projectName="marsyas" targetName="phasevocoder" />
       <config projectName="marsyas" targetName="marsyas" />
+      <config projectName="marsyas" targetName="speakerSeg2" />
+      <config projectName="marsyas" targetName="onsets" />
+      <config projectName="marsyas" targetName="WHaSp" />
+      <config projectName="marsyas" targetName="doxy" />
+      <config projectName="marsyas" targetName="marsyas-run" />
+      <config projectName="marsyas" targetName="marsyas_play_file" />
+      <config projectName="marsyas" targetName="pitchdtw" />
+      <config projectName="marsyas" targetName="omRms" />
+      <config projectName="marsyas" targetName="ibt" />
+      <config projectName="marsyas" targetName="pitchextract" />
+      <config projectName="marsyas" targetName="speakerSeg" />
+      <config projectName="marsyas" targetName="record" />
+      <config projectName="marsyas" targetName="mirex_train_and_predict" />
       <config projectName="marsyas" targetName="nextract" />
+      <config projectName="marsyas" targetName="rhythmMap" />
+      <config projectName="marsyas" targetName="audioCompare" />
+      <config projectName="marsyas" targetName="sfplay" />
+      <config projectName="marsyas" targetName="marsyas-script-cpp" />
+      <config projectName="marsyas" targetName="sound2png" />
+      <config projectName="marsyas" targetName="helloWorld" />
+      <config projectName="marsyas" targetName="marsyas-debug" />
+      <config projectName="marsyas" targetName="bextract" />
+      <config projectName="marsyas" targetName="marsyas-latency-test" />
+      <config projectName="marsyas" targetName="mudbox" />
+      <config projectName="marsyas" targetName="mkcollection" />
+      <config projectName="marsyas" targetName="peakClustering" />
       <config projectName="marsyas" targetName="aim" />
+      <config projectName="marsyas" targetName="oscpack" />
+      <config projectName="marsyas" targetName="wreckBeach" />
+      <config projectName="marsyas" targetName="docs" />
+      <config projectName="marsyas" targetName="tempo" />
+      <config projectName="marsyas" targetName="virtualsensor" />
+      <config projectName="marsyas" targetName="mirex_extract" />
+      <config projectName="marsyas" targetName="peakSynth" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -404,7 +404,8 @@
       <workItem from="1569231463156" duration="21040000" />
       <workItem from="1569573983289" duration="6216000" />
       <workItem from="1569844552181" duration="128000" />
-      <workItem from="1569844768473" duration="17847000" />
+      <workItem from="1569844768473" duration="25923000" />
+      <workItem from="1570451046147" duration="1090000" />
     </task>
     <servers />
   </component>
